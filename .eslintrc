@@ -1,0 +1,21 @@
+{
+	"extends": "eslint:recommended",
+	"parserOptions": {
+		"ecmaVersion": 8,
+		"sourceType": "module"
+	},
+	"env": {
+		"shared-node-browser": true,
+		"node": true,
+		"commonjs": true
+	},
+	"rules": {
+		"indent": ["error", "tab"],
+		"no-var": "error",
+		"prefer-const": "error",
+		"require-await": "error",
+		"spaced-comment": "error",
+		"prefer-object-spread": "error",
+		"prefer-arrow-callback": "error"
+	}
+}
